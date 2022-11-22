@@ -12,6 +12,26 @@
     <title>Sphere Edge Enterprise Limited</title>
 </head>
 <body>
+    <section class="relative lg:hidden">
+         <!-- Mobile Nav -->
+        <div class="md:hidden block">
+            <!-- Menu icon -->
+            <div class="absolute top-[22px] right-[15px] z-30">
+                <button id="menu-btn" class="md:hidden focus:outline-none hamburger">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+            <nav id="menu" class="hidden lg:hidden z-20 absolute min-h-screen space-y-6 min-w-full flex-col opacity-98 text-center top-0 pt-20 text-white bg-indigo-400">
+                <a href="#" class="hover:text-gray-200  border-b pb-4 border-white mx-12">Features</a>
+                <a href="#" class="hover:text-gray-200 border-b pb-4 border-white mx-12">Download</a>
+                <a href="#" class="hover:text-gray-200 border-b pb-4 border-white mx-12">FAQ</a>
+                <a href="#" class="px-6 py-3 border rounded-lg mx-4 hover:text-gray-40">Resources</a>
+            </nav>
+        </div>
+    </section>
+
     <section id="hero" class="bg-center bg-fixed md:h-1/2 md:px-8 lg:min-h-screen">
         <!-- Nav -->
         <div class="hidden max-w-7xl mx-auto md:grid grid-cols-3 pt-10">
@@ -33,6 +53,7 @@
                 <a href="" class="px-4 py-2 rounded-lg transition duration-200 hover:bg-blue-700 text-white bg-blue-500">Buy Now</a>
             </div>
         </div>
+
         <!-- Hero Section -->
         <div class="mx-auto text-center lg:my-36 lg:pb-20 text-white ">
             <p class="text-3xl pt-20 lg:pt-0  lg:text-5xl">Landing Page for Sphere Edge</p>
@@ -183,6 +204,7 @@
             <p class="hover:text-white">Legal</p>
         </div>
     </section>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
